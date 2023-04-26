@@ -11,10 +11,10 @@ var fs = require('fs');
 var dbURL = 'mongodb://localhost:27017/test';
 
 
-    var args = process.argv.slice(2);
-    if (args[0].length > 0) {
-        dbURL = 'mongodb://' + args[0] + ':27017/test';
-    }     
+    // var args = process.argv.slice(2);
+    // if (args[0].length > 0) {
+    //     dbURL = 'mongodb://' + args[0] + ':27017/test';
+    // }     
 
     var MS = require('mongoskin');
 var path = require('path'),
